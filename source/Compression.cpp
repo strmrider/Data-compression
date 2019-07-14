@@ -1,5 +1,4 @@
 #include "Compression.h"
-#include "Utilities.h"
 
 namespace compression {
 	// extracts the relevant huffman tree code from the header
