@@ -10,7 +10,7 @@ namespace compression {
 	// file to file
 	void compressFile(const string& sourceFile, const string& targetFile);
 	void decompressFile(const string& sourceFile, const string& targetFile);
-	// returns decompressed data from ile
+	// returns decompressed data from file
 	string& decompress(const string& path);
 	string& encode(const string& text);
 	string& decode(const string& encodedText);
